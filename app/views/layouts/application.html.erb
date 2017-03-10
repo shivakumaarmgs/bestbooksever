@@ -11,8 +11,13 @@
   <body>
 
     <%= render 'layouts/navbar' %>
+
+    <!-- Devise flash message -->
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <div class="container m-t-50">
-      
+
       <%= yield %>
 
       <footer>
