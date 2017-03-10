@@ -9,6 +9,21 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <%= render 'layouts/navbar' %>
+    <div class="container m-t-50">
+      
+      <%= yield %>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Your Website 2014</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Footer -->
   </body>
 </html>
