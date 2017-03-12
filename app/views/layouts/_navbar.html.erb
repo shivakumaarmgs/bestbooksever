@@ -45,7 +45,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <% if user_signed_in? %>
+        <% if user_signed_in? || admin_signed_in? %>
         <li> <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %> </li>
         <% else %>
         <li> <%= link_to 'Sign Up', new_user_registration_path %> </li>

@@ -54,3 +54,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # custom gems
 gem 'devise', '~> 4.2'
+gem 'youtube_addy', '~> 1.0', '>= 1.0.4'
+
